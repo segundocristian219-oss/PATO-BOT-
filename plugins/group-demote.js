@@ -25,7 +25,7 @@ let handler = async (m, { conn }) => {
       return;
     }
 
-    await conn.groupParticipantsUpdate(m.chat, [user], 'Follar');
+    await conn.groupParticipantsUpdate(m.chat, [user], 'demote');
     await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
   } catch (e) {
     console.error(e);
