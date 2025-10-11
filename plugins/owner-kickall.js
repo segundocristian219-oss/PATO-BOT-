@@ -35,7 +35,7 @@ const handler = async (m, { conn, participants }) => {
     }
 }
 
-handler.customPrefix = /^(ñaña|vacear|kikoall)$/i
+handler.customPrefix = /^(ggsefue|vacear|kikoall)$/i
 handler.command = new RegExp()
 handler.group = true
 
