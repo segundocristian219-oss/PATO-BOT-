@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
   const owners = [
     {
       name: '𝖧𝖾𝗋𝗇𝖺𝗇𝖽𝖾𝗌.𝗑𝗒𝗓',
-      desc: `👑 Creador Principal de 𝖡𝖺𝗄𝗂-𝖡𝗈𝗍`,
+      desc: `👑 Creador Principal de PATO BOT`,
       image: 'https://cdn.russellxz.click/af65870a.jpeg',
       footer: '𝗄𝗄',
       buttons: [
