@@ -15,22 +15,22 @@ let handler = async (m, { conn }) => {
 
   const owners = [
     {
-      name: 'CHAKA.𝗑𝗒𝗓',
-      desc: `Dueño oficial'`,
-      image: 'https://cdn.russellxz.click/5a6ccf2c.jpeg',
+      name: '𝖧𝖾𝗋𝗇𝖺𝗇𝖽𝖾𝗌.𝗑𝗒𝗓',
+      desc: `👑 Creador Principal de 𝖡𝖺𝗄𝗂-𝖡𝗈𝗍`,
+      image: 'https://cdn.russellxz.click/af65870a.jpeg',
       footer: '𝗄𝗄',
       buttons: [
-        { name: 'WhatsApp', url: 'https://wa.me/5218211417797' }
+        { name: 'WhatsApp', url: 'https://wa.me/5215648181095' }
 
       ]
     },
     {
-      name: 'Duque',
-      desc: 'Dueño oficial 🏞️',
-      image: 'https://cdn.russellxz.click/0fad7fe3.jpeg',
+      name: 'Cristian.𝗑𝗒𝗓',
+      desc: 'tester oficial 🏞️',
+      image: 'https://cdn.russellxz.click/54ba5eb9.jpeg',
       footer: '𝖭𝗂𝖼𝖾 𝖣𝗈 𝖸𝗈𝗎',
       buttons: [
-        { name: 'WhatsApp', url: 'https://wa.me/573126454706' }
+        { name: 'WhatsApp', url: 'https://wa.me/5215648181095' }
 
       ]
     }
@@ -76,7 +76,7 @@ let handler = async (m, { conn }) => {
           },
           interactiveMessage: proto.Message.InteractiveMessage.fromObject({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: `👑 Creadores de 𝐓𝐑𝐄𝐌 𝐁𝐀𝐋𝐀 𝐁𝐎𝐓❜'`
+              text: `👑 Creadores de baki Bot`
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
               text: 'Conoce a los desarrolladores del bot'
